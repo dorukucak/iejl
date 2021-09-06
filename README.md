@@ -1,3 +1,18 @@
+This is a static version of the IEJL website that is still under construction. Components that I have created are:
+
+-Header
+-Footer
+-Volunteer http://localhost:8000/volunteer
+-How It Works http://localhost:8000/howItWorks
+-Donate http://localhost:8000/donate
+-Contact http://localhost:8000/contact
+-SignUp http://localhost:8000/joinus
+
+Project was created using Gatsby and it works best with Yarn. On Windows machines Gatsby might need remote WSL connection for best results. 
+
+On WSL, be sure to install packages with sudo
+
+
 # IEJL
 
 ## How To Use 🔧

@@ -1,3 +1,20 @@
+This is a static version of the new IEJL website that is still under construction. UI/UX was prepared by designer and content creator teams. Final designs can be seen in the mockups folder. Components that I have created are:
+
+* Header 
+* Footer
+* Volunteer http://localhost:8000/volunteer
+* How It Works http://localhost:8000/howItWorks
+* Donate http://localhost:8000/donate
+* Contact http://localhost:8000/contact
+* SignUp http://localhost:8000/joinus
+
+
+
+Project was created using Gatsby and it works best with Yarn. On Windows machines Gatsby might need remote WSL connection for best results. 
+
+On WSL, be sure to install packages with admin privilages ```$sudo```
+
+
 # IEJL
 
 ## How To Use 🔧
@@ -25,11 +42,16 @@ $ yarn develop
 ```
 
 **NOTE**:
-If your run into issues installing the dependencies with NPM, use this command:
+If your run into issues installing the dependencies such as Sharp, use this command:
 
 ```bash
 # Install dependencies with all permissions
 $ sudo npm install --unsafe-perm=true --allow-root
+```
+OR
+
+```
+$sudo yarn
 ```
 
 ## Project Description
@@ -79,7 +101,7 @@ In the project directory, you can run:
 
 `yarn develop`
 
-Runs the app in the development mode.<br> Open http://localhost:300 to view it in the browser.
+Runs the app in the development mode.<br> Open http://localhost:3000 to view it in the browser.
 
 The page will reload if you make edits.<br> You will also see any lint errors in the console.
 

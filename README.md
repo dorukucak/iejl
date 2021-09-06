@@ -1,4 +1,4 @@
-This is a static version of the new IEJL website that is still under construction. UI/UX was prepared by designer and content creator teams. Designs files can be seen in the mockups folder. Components that I have created are:
+This is a static version of the new IEJL website that is still under construction. UI/UX was prepared by designer and content creator teams. Final designs can be seen in the mockups folder. Components that I have created are:
 
 * Header 
 * Footer

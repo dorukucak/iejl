@@ -12,7 +12,7 @@ This is a static version of the IEJL website that is still under construction. C
 
 Project was created using Gatsby and it works best with Yarn. On Windows machines Gatsby might need remote WSL connection for best results. 
 
-On WSL, be sure to install packages with sudo
+On WSL, be sure to install packages with admin privilages ```$sudo```
 
 
 # IEJL
@@ -42,11 +42,16 @@ $ yarn develop
 ```
 
 **NOTE**:
-If your run into issues installing the dependencies with NPM, use this command:
+If your run into issues installing the dependencies such as Sharp, use this command:
 
 ```bash
 # Install dependencies with all permissions
 $ sudo npm install --unsafe-perm=true --allow-root
+```
+OR
+
+```
+$sudo yarn
 ```
 
 ## Project Description

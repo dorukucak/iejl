@@ -1,0 +1,109 @@
+.home__page {
+  background: linear-gradient(90deg, #f2f2f2 0%, #ffffff 100%);
+  display: flex;
+  justify-content: center;
+  z-index: auto;
+}
+
+.home__page .img-wrapper {
+  max-width: 1500px;
+}
+
+.wrapper-banner {
+  max-width: 1280px;
+}
+
+.home__page__svg {
+  -ms-flex-item-align: center;
+  position: relative;
+}
+
+.home__page__svg .main__svg {
+  transition: transform 1s ease-in-out 0s, -webkit-transform 1s ease-in-out 0s;
+  animation-duration: 2.2s;
+  -webkit-animation-name: upDown;
+  animation-name: upDown;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+.home__page__content h2 {
+  font-weight: bolder;
+  font-size: 35px;
+  line-height: 57px;
+}
+
+.home__page__content .desc {
+  line-height: 28px;
+}
+
+.home__page__content .home__page__content__tagline {
+  display: flex;
+  margin: 15px 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.home__page__content .home__page__content__button__container svg {
+  transition: all 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  cursor: pointer;
+}
+
+.home__page__content .home__page__content__button__container:hover svg {
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+}
+
+.home__page__content .home__page__content__social {
+  padding: 30px;
+  align-self: flex-start;
+  display: flex;
+  -webkit-box-pack: end;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+@-webkit-keyframes upDown {
+  0% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  100% {
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+  }
+}
+
+@keyframes upDown {
+  0% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  100% {
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+  }
+}
+
+@media (max-width: 786px) {
+  .home__page {
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+  }
+  .home__page__content {
+    padding-top: 32px;
+  }
+  .home__page__content h2 {
+    font-size: 30px !important;
+  }
+}
+
+svg {
+  z-index: 0;
+}
+/*# sourceMappingURL=LandingPage.css.map */
